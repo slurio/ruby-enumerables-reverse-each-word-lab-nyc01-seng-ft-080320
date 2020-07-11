@@ -4,10 +4,8 @@ require 'pry'
 # need to convert strin array to ["a", "b" , "c"]
 
 def reverse_each_word(string)
-  array = string.split("")
+  array = string.split(" ")
+  
   new_array = []
-  array.each do |letter|
-    new_array.unshift(letter)
-  end
-  new_array
+  binding.pry
 end
