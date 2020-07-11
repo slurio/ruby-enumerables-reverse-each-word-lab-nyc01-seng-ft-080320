@@ -6,7 +6,7 @@ require 'pry'
 def reverse_each_word(string)
   array = string.split("")
   new_array = []
-  string.each do |letter|
+  array.each do |letter|
     new_array.unshift(letter)
   end
   new_array
