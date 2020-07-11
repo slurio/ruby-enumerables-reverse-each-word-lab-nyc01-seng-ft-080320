@@ -9,7 +9,6 @@ def reverse_each_word(string)
   array.each do |word|
       word.reverse
       new_array.push(word)
-    end
   end
   new_array
 end
