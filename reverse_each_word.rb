@@ -4,6 +4,6 @@ require 'pry'
 # need to convert strin array to ["a", "b" , "c"]
 
 def reverse_each_word(string)
-  array = string.split(/,/)
+  array = string.split("")
   binding.pry
 end
