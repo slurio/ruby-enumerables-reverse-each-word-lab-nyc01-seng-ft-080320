@@ -8,9 +8,8 @@ def reverse_each_word(string)
   new_array = []
   array.each do |word|
       word.reverse
+      new_array.push(word)
     end
-    new_array.push(word)
-    binding.pry
   end
   new_array
 end
